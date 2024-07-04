@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind colors;
+
+section.center{
+    @apply grid;
+    grid-template-columns: .4fr .6fr;
+}
